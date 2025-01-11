@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+      <nav id="desktop-nav">
+          <div class="logo"><b>Prawin Raja J P M</b></div>
+          <div>
+              <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Work History</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#cert">Certification</a></li>                 
+                  <li><a href="#hobbies">Hobbies</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+      <nav id="hamburger-nav">
+          <div class="logo">Prawin Raja J P M</div>
+          <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <div class="menu-links">
+                  <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                  <li><a href="#experience" onclick="toggleMenu()">Work History</a></li>
+                  <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                  <li><a href="#cert" onclick="toggleMenu()">Certification</a></li>
+                  <li><a href="#hobbies" onclick="toggleMenu()">Hobbies</a></li>
+                  <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>  
+          </div>
+      </nav>
+      <section id="profile">
+          <div class="section__pic-container">
+              <img src="Assest\1690133220745.jpg" alt="1690133220745.jpg" />
+          </div>
+          <div class="section__text">
+              <p class="section__text__p1">Hello, I'm</p>
+              <h1 class="title">Prawin</h1>
+              <p class="section__text__p2">FrontEnd Developer</p>
+              <div class="btn-container">
+                  <button class="btn btn-color-2"
+                          onclick="window.open('Assest/Prawin Raja J P M.pdf')">
+                      Download Resume
+                  </button>
+
+              </div>
+              <div id="socials-container">
+                  <img src="Assest\Prawin Linkedin.jpg"
+                       alt="Prawin Linkedin"
+                       class="icon"
+                       onclick="location.href='https://https://www.linkedin.com/in/prawin-raja-j-p-m-bsrpr1714'"/>
+
+              </div>
+          </div>
+      </section>
+      <section id="about">
+          <p class="section__text__p1">Get To Know More</p><br/>
+          <h1 class="title">About Me</h1><br/><br/>
+                    <div class="section-container">
+              <div class="section__pic-container">
+                  <img src="Assest\IMG_20230826_112248.jpg"
+                       alt="IMG_20230826_112248"
+                       class="about-pic" />
+              </div>
+              <div class="about-details-container">
+                  <div class="about-containers">
+                      <div class="details-container">
+                          <img src="Assest\experience.png"
+                               alt="Experience icon"
+                               class="icon" />
+                          <h3>Experience</h3>
+                          <p>3 years <br />Support Analyst</p>
+                      </div>
+                      <div class="details-container">
+                          <img src="Assest\education.png"
+                               alt="Education icon"
+                               class="icon" />
+                          <h3>Education</h3>
+                          <p>B.E Computer Science</p>
+                      </div>
+
+                  </div>
+                  <div class="text-container">
+                      <p>                        
+
+                            As an experienced Support Analyst with a strong foundation in troubleshooting, system optimization, and user-centric problem-solving, 
+                            I am excited to transition into a Web Developer role. 
+                            Over the years, I have honed my analytical skills, developed a deep understanding of technical systems, and collaborated effectively with cross-functional teams to deliver seamless solutions.
+                            My experience has instilled in me a proactive approach to learning new technologies and adapting to dynamic environments. 
+                            To prepare for this shift, I have gained hands-on experience in web development by building projects using HTML, CSS, JavaScript, and frameworks like React. 
+                            This combination of technical proficiency and customer-focused mindset positions me to create intuitive, high-performing web applications while continuing to solve challenges with a user-first approach.
+                            
+                            <br /><br /><br />
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <section id="experience">
+          <br/>
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Work History</h1>
+          <div class="experience-details-container">
+              <div class="about-containers">
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">Jan 2020 — Jul 2020</h2>
+                      <div class="article-container">
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Sutherland - Chennai</h3>
+                                  <p>
+                                      Associate
+                                  </p>
+                              </div>
+                          </article>
+
+
+
+                      </div>
+                  </div>
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">Oct 2021 — Jul 2023 </h2>
+                      <div class="article-container">
+
+
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>                                      
+                                      Capestart - Nagercoil
+                                  </h3>
+                                  <p> Support Analyst </p>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <section id="skills">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Skills</h1>
+          <div class="experience-details-container">
+              <div class="about-containers">
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">Development</h2>
+                      <div class="article-container">
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Python</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>SQL</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Django</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>HTML</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>CSS</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>ReactJs</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Salesforce (CRM)</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Bootstrap</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+
+                      </div>
+                  </div>
+                  <div class="details-container">
+                      <h2 class="experience-sub-title"> Tools</h2>
+                      <div class="article-container">
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Visual Studio</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Pycharm</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Oracle</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Excel</h3>
+                                  <p>Experienced</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Git</h3>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Photoshop</h3>
+                                  <p>Experienced</p>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <section id="cert">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Certifications</h1>
+          <div class="experience-details-container">
+              <div class="about-containers">
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">Python Fullstack Certification</h2>
+                      <div class="article-container">
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3> at Green Technologies - Chennai </h3>
+
+                              </div>
+                          </article>
+
+
+
+                      </div>
+                  </div>
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">PostgreSQL Certification</h2>
+                      <div class="article-container">
+
+
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>
+                                      at Simplilearn - Online
+                                  </h3>
+
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+
+                  <div class="details-container">
+                      <h2 class="experience-sub-title"> Python Certification </h2>
+                      <div class="article-container">
+
+
+                          <article>
+                              <img src="Assest\checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>
+                                      at Isoft - Chennai
+                                  </h3>
+
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+
+      </section>
+      <section id="hobbies">
+          <p class="section__text__p1">My Interests </p>
+          <h1 class="title">Hobbies</h1>
+          <div class="experience-details-container">
+              <div class="about-containers">
+                  <div class="details-container color-container">
+                      <div class="article-container">
+                          <img src="Assest\project-1.png"
+                               alt="Project 3"
+                               class="project-img" />
+                      </div>
+                            <h2 class="experience-sub-title project-title">Pet Lover</h2>
+                                        </div>
+
+                  <div class="details-container color-container">
+                      <div class="article-container">
+                          <img src="Assest\project-2.png"
+                               alt="Project 3"
+                               class="project-img" />
+                      </div>
+                      <h2 class="experience-sub-title project-title">Website Devlopment</h2>
+                                          </div>
+                  </div>
+
+            
+                  <div class="details-container color-container">
+                      <div class="article-container">
+                          <img src="Assest\project-4.png"
+                               alt="Project 3"
+                               class="project-img" />
+                      </div>
+                      <h2 class="experience-sub-title project-title">Video Editing</h2>
+                                            </div>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+
+      <section id="contact">
+          <p class="section__text__p1">Get in Touch</p>
+          <h1 class="title">Contact Me</h1>
+          <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                  <img src="Assest\email.png"
+                       alt="email.png"
+                       class="icon contact-icon email-icon" />
+                  <p><a href="mailto:praveenmano96@gmail.com">praveenmano96@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                  <img src="Assest\linkedin.png"
+                       alt="linkedin.png"
+                       class="icon contact-icon"/>
+                  <p><a href="https://www.linkedin.com/in/prawin-raja-j-p-m-bsrpr1714/">LinkedIn</a></p>
+              </div>
+          </div>
+      </section>
+      <footer>
+          <nav>
+              <div class="nav-links-container">
+                  <ul class="nav-links">
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#experience">Work History</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#cert">Certification</a></li>                      
+                      <li><a href="#hobbies">Hobbies</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </div>
+          </nav>
+          <p>Copyright &#169; 2024 Prawin. All Rights Reserved.</p>
+      </footer>
+      <script src="apps.js"></script>
+  </body>
+</html>
